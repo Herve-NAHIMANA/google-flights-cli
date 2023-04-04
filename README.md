@@ -14,6 +14,7 @@ CLI/API for Google Flights using Selenium
 
 ## Usage
 
+
 `python3 search.py --from "YUL" --to "CDG" --start "2020-06-10" [--end "2020-06-20"] [--stops 2] [--passengers 2] [--cheapest]`
 For the API, refer to api.py for endpoints.
 
