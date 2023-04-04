@@ -9,7 +9,6 @@ CLI/API for Google Flights using Selenium
 ### Installing
 
 * Make sure you have installed [Python 3](https://www.python.org/)
-* Install [Selenium](https://www.selenium.dev/) and the Chrome webdriver
 * Clone repository and starting searching!
 
 ## Usage
