@@ -1,11 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_restful import Resource, Api
-
 from flight_finder import FlightFinder
 
 app = Flask(__name__)
 api = Api(app)
-
+@app.route('/')
+def index():
+	return render_template("index.html")
+@app.route('/contacts')
+def contacts():
+    return render_template("contact.html")
 @app.route('/flights/<from_>/<to_>/<start_>')
 def find_flights_oneway(from_, to_, start_):
     ff = FlightFinder(from_, to_, start_)
