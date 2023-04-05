@@ -24,4 +24,3 @@ Any contributions are welcome! Please try to follow the style conventions used t
 ## License
 
 google-flights-cli is licensed under the [MIT License](LICENSE.md).
-
