@@ -1,11 +1,9 @@
 # google-flights-cli/api
-CLI/API for Google Flights using Selenium
-
 ### Requirements
-
-* [Python 3](https://www.python.org/)
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-
+* apt install python3
+* apt install python3-pip
+* pip install flask
+* pip install flask_restful
 ### Installing
 * Make sure you have installed [Python 3](https://www.python.org/)
 * Clone repository and starting searching!
